@@ -125,7 +125,7 @@ joystickCo_FrontElevatorUp.whileHeld(new FrontElevatorRun(1, m_frontElevator) ,t
     SmartDashboard.putData("JoystickCo_FrontElevatorUp",new FrontElevatorRun(1, m_frontElevator) );
 
 final JoystickButton joystickRight_ShooterRev = new JoystickButton(joystickRight, 3);        
-joystickRight_ShooterRev.whileHeld(new ShooterRun(-1, m_shooter) ,true);
+joystickRight_ShooterRev.whileHeld(new ShooterRun(1, m_shooter) ,true);
     SmartDashboard.putData("JoystickRight_ShooterRev",new ShooterRun(-1, m_shooter) );
 
 final JoystickButton joystickRight_ShooterLo = new JoystickButton(joystickRight, 2);        
@@ -133,7 +133,7 @@ joystickRight_ShooterLo.whileHeld(new ShooterRun(.5, m_shooter) ,true);
     SmartDashboard.putData("JoystickRight_ShooterLo",new ShooterRun(.5, m_shooter) );
 
 final JoystickButton joystickRight_ShooterHi = new JoystickButton(joystickRight, 1);        
-joystickRight_ShooterHi.whileHeld(new ShooterRun(1, m_shooter) ,true);
+joystickRight_ShooterHi.whileHeld(new ShooterRun(-1, m_shooter) ,true);
     SmartDashboard.putData("JoystickRight_ShooterHi",new ShooterRun(1, m_shooter) );
 
 final JoystickButton joystickLeft_Intake_Rev = new JoystickButton(joystickLeft, 2);        
