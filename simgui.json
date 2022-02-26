@@ -1,0 +1,60 @@
+{
+  "HALProvider": {
+    "Other Devices": {
+      "Talon FX[0]": {
+        "header": {
+          "open": true
+        }
+      },
+      "Talon FX[1]": {
+        "header": {
+          "open": true
+        }
+      },
+      "Talon FX[2]": {
+        "header": {
+          "open": true
+        }
+      },
+      "Talon FX[3]": {
+        "header": {
+          "open": true
+        }
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/LiveWindow/DriveTrain": "Subsystem",
+      "/LiveWindow/DriveTrain/Differential Drive 1": "DifferentialDrive",
+      "/LiveWindow/FrontElevator": "Subsystem",
+      "/LiveWindow/Intake": "Subsystem",
+      "/LiveWindow/Shooter": "Subsystem",
+      "/LiveWindow/Tower": "Subsystem",
+      "/LiveWindow/Ungrouped/Scheduler": "Scheduler",
+      "/SmartDashboard/Auto Mode": "String Chooser",
+      "/SmartDashboard/Autonomous Command": "Command",
+      "/SmartDashboard/JoystickCo_FrontElevatorDn": "Command",
+      "/SmartDashboard/JoystickCo_FrontElevatorUp": "Command",
+      "/SmartDashboard/JoystickCo_TowerDn": "Command",
+      "/SmartDashboard/JoystickCo_TowerUp": "Command",
+      "/SmartDashboard/JoystickLeft_Intake": "Command",
+      "/SmartDashboard/JoystickLeft_Intake_Rev": "Command",
+      "/SmartDashboard/JoystickRight_ShooterHi": "Command",
+      "/SmartDashboard/JoystickRight_ShooterLo": "Command",
+      "/SmartDashboard/JoystickRight_ShooterRev": "Command",
+      "/SmartDashboard/ShooterRun: Hi_ShooterSetpoint": "Command",
+      "/SmartDashboard/ShooterRun: Lo_ShooterSetpoint": "Command",
+      "/SmartDashboard/ShooterRun: Rev_ShooterSetpoint": "Command"
+    }
+  },
+  "NetworkTables": {
+    "CameraPublisher": {
+      "USB Camera 0": {
+        "open": true
+      },
+      "open": true
+    }
+  }
+}
