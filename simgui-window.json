@@ -1,25 +1,35 @@
 {
   "MainWindow": {
     "GLOBAL": {
-      "height": "987",
-      "maximized": "1",
+      "height": "1509",
+      "maximized": "0",
       "style": "0",
       "userScale": "2",
-      "width": "1680",
-      "xpos": "1920",
-      "ypos": "-546"
+      "width": "2531",
+      "xpos": "0",
+      "ypos": "34"
     }
   },
   "Window": {
+    "###/SmartDashboard/Drive Distance": {
+      "Collapsed": "0",
+      "Pos": "456,111",
+      "Size": "133,71"
+    },
+    "###/SmartDashboard/Reset Drive Encoders": {
+      "Collapsed": "0",
+      "Pos": "245,85",
+      "Size": "245,89"
+    },
     "###FMS": {
       "Collapsed": "0",
       "Pos": "7,699",
-      "Size": "235,169"
+      "Size": "326,211"
     },
     "###Joysticks": {
       "Collapsed": "0",
       "Pos": "375,697",
-      "Size": "796,155"
+      "Size": "1156,202"
     },
     "###Keyboard 0 Settings": {
       "Collapsed": "0",
@@ -33,7 +43,7 @@
     },
     "###Keyboard 2 Settings": {
       "Collapsed": "0",
-      "Pos": "858,56",
+      "Pos": "540,52",
       "Size": "450,840"
     },
     "###NetworkTables": {
@@ -49,12 +59,12 @@
     "###System Joysticks": {
       "Collapsed": "0",
       "Pos": "7,525",
-      "Size": "192,218"
+      "Size": "273,290"
     },
     "###Timing": {
       "Collapsed": "0",
       "Pos": "7,225",
-      "Size": "135,127"
+      "Size": "188,157"
     },
     "Debug##Default": {
       "Collapsed": "0",
@@ -64,7 +74,7 @@
     "Robot State": {
       "Collapsed": "0",
       "Pos": "5,20",
-      "Size": "92,99"
+      "Size": "126,129"
     }
   }
 }

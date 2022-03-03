@@ -6,17 +6,32 @@
           "open": true
         }
       },
+      "Talon FX[0]/Integrated Sensor": {
+        "header": {
+          "open": true
+        }
+      },
       "Talon FX[1]": {
         "header": {
           "open": true
         }
       },
-      "Talon FX[2]": {
+      "Victor SPX[4]": {
         "header": {
           "open": true
         }
       },
-      "Talon FX[3]": {
+      "Victor SPX[6]": {
+        "header": {
+          "open": true
+        }
+      },
+      "Victor SPX[7]": {
+        "header": {
+          "open": true
+        }
+      },
+      "Victor SPX[9]": {
         "header": {
           "open": true
         }
@@ -35,6 +50,7 @@
       "/LiveWindow/Ungrouped/Scheduler": "Scheduler",
       "/SmartDashboard/Auto Mode": "String Chooser",
       "/SmartDashboard/Autonomous Command": "Command",
+      "/SmartDashboard/Drive Distance": "Command",
       "/SmartDashboard/JoystickCo_FrontElevatorDn": "Command",
       "/SmartDashboard/JoystickCo_FrontElevatorUp": "Command",
       "/SmartDashboard/JoystickCo_TowerDn": "Command",
@@ -44,9 +60,17 @@
       "/SmartDashboard/JoystickRight_ShooterHi": "Command",
       "/SmartDashboard/JoystickRight_ShooterLo": "Command",
       "/SmartDashboard/JoystickRight_ShooterRev": "Command",
+      "/SmartDashboard/Reset Drive Encoders": "Command",
       "/SmartDashboard/ShooterRun: Hi_ShooterSetpoint": "Command",
       "/SmartDashboard/ShooterRun: Lo_ShooterSetpoint": "Command",
       "/SmartDashboard/ShooterRun: Rev_ShooterSetpoint": "Command"
+    },
+    "windows": {
+      "/SmartDashboard/Reset Drive Encoders": {
+        "window": {
+          "visible": true
+        }
+      }
     }
   },
   "NetworkTables": {
@@ -56,5 +80,8 @@
       },
       "open": true
     }
+  },
+  "NetworkTables View": {
+    "visible": false
   }
 }

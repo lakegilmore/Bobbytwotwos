@@ -26,12 +26,12 @@ public class Auto_Two_Ball extends SequentialCommandGroup {
                                 new TowerRun(1, m_tower).withTimeout(3)
                                 )     
                         ),
-                new ParallelDeadlineGroup(new DriveDistance(24, .5, .5, m_driveTrain), 
+                new ParallelDeadlineGroup(new DriveDistance(90, -.75, -.75, m_driveTrain), 
                                           new InakeRun(1, m_intake),
                                           new TowerRun(.7, m_tower)
                                           ),
                 new TowerRun(-.5, m_tower).withTimeout(.5),
-                parallel(new DriveDistance(24, -.5, -.5, m_driveTrain),
+                parallel(new DriveDistance(70, .5, .5, m_driveTrain),
                           parallel(new ShooterRun(1, m_shooter).withTimeout(5),
                                   sequence(new WaitCommand(2),
                                             new TowerRun(1, m_tower)

@@ -24,7 +24,7 @@ public class Auto_Shoot_and_Drive extends SequentialCommandGroup {
                                 new TowerRun(1, m_tower).withTimeout(3)
                                 )     
                         ),
-                new DriveDistance(24, .5, .5, m_driveTrain)
+                new DriveDistance(70, -.5, -.5, m_driveTrain)
 
 
     );
